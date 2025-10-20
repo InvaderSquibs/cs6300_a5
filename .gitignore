@@ -16,7 +16,6 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -26,20 +25,31 @@ MANIFEST
 *.manifest
 *.spec
 
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 .pytest_cache/
-cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
 
 # Environments
 .env
@@ -50,26 +60,42 @@ ENV/
 env.bak/
 venv.bak/
 
-# IDE
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Vector Database Files
-chroma_db/
-*.index
-*_metadata.json
-model_cache/
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model files and caches
+models/.locks/
+*.lock
+data/models/
+data/vector_db/
+data/chat_history/
+data/reports/
+
+# Test outputs
+*_test_report_*.json
+*_summary_*.json
+conversation_test_report_*.json
+poignant_prompts_test_report_*.json
+targeted_rag_test_report_*.json
+smart_person_test_report_*.json
 
 # Logs
 *.log
 logs/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Test files (temporary)
-test_*.py
+# Temporary files
+*.tmp
+*.temp
