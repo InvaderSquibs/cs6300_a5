@@ -1,0 +1,94 @@
+{
+  "target_recipe": {
+    "id": "target_001",
+    "title": "Classic Margherita Pizza",
+    "description": "Traditional Neapolitan pizza with fresh mozzarella and basil",
+    "ingredients": [
+      "pizza dough",
+      "San Marzano tomatoes",
+      "fresh mozzarella",
+      "fresh basil",
+      "extra virgin olive oil",
+      "salt"
+    ],
+    "instructions": [
+      "Prepare pizza dough and let rise",
+      "Stretch dough into round shape",
+      "Spread tomato sauce evenly",
+      "Add torn mozzarella pieces",
+      "Bake in very hot oven until crust is golden",
+      "Garnish with fresh basil and olive oil"
+    ],
+    "cuisine_type": "Italian",
+    "cooking_time": 25,
+    "serving_size": 2
+  },
+  "candidate_recipes": [
+    {
+      "id": "candidate_001",
+      "title": "Margherita Pizza",
+      "description": "Simple pizza with tomato, mozzarella, and basil",
+      "ingredients": [
+        "pizza base",
+        "tomato sauce",
+        "mozzarella cheese",
+        "basil leaves",
+        "olive oil"
+      ],
+      "instructions": [
+        "Roll out pizza dough",
+        "Apply tomato sauce",
+        "Add cheese and basil",
+        "Bake until crispy"
+      ],
+      "cuisine_type": "Italian",
+      "cooking_time": 20
+    },
+    {
+      "id": "candidate_002",
+      "title": "Pepperoni Pizza",
+      "description": "Classic American pizza with pepperoni and cheese",
+      "ingredients": [
+        "pizza dough",
+        "pizza sauce",
+        "mozzarella cheese",
+        "pepperoni slices"
+      ],
+      "instructions": [
+        "Spread sauce on dough",
+        "Add cheese and pepperoni",
+        "Bake until golden"
+      ],
+      "cuisine_type": "American",
+      "cooking_time": 18
+    },
+    {
+      "id": "candidate_003",
+      "title": "Chicken Curry",
+      "description": "Spicy Indian chicken curry with aromatic spices",
+      "ingredients": [
+        "chicken pieces",
+        "onions",
+        "tomatoes",
+        "garlic",
+        "ginger",
+        "curry spices",
+        "coconut milk"
+      ],
+      "instructions": [
+        "Sauté onions until golden",
+        "Add garlic, ginger, and spices",
+        "Add chicken and brown",
+        "Add tomatoes and coconut milk",
+        "Simmer until chicken is cooked"
+      ],
+      "cuisine_type": "Indian",
+      "cooking_time": 40
+    }
+  ],
+  "query_metadata": {
+    "query_type": "recipe_similarity_evaluation",
+    "timestamp": "2024-01-01T12:00:00Z",
+    "source": "sample_data_generator"
+  }
+}
