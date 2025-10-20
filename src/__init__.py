@@ -1,1 +1,1 @@
-# Recipe Similarity Evaluation Package
+# Vector database template package
